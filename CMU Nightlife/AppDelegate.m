@@ -7,14 +7,87 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+
+    
+    //Parse Backend
+    [Parse setApplicationId:@"wuvV1KhIFTfrEYe0vEORNKUULmRH1VYgUNFa3IR0" clientKey:@"nVSMKxUxmm2Anco2bUtB2datvn9q0DieeAsBqjjL"];
+    
+    // Register for push notifications
+    [application registerForRemoteNotificationTypes:
+     UIRemoteNotificationTypeBadge |
+     UIRemoteNotificationTypeAlert |
+     UIRemoteNotificationTypeSound];
+
+    
+    [PFImageView class];
+    
+    //Parse Analytics
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    
+    
+    //Status Bar
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+
+    
+    //Navigation Bar Color
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(0x0B0A0A)];
+    
+    //Navigation Bar Font Type
+    NSShadow *shadow = [[NSShadow alloc] init];
+    shadow.shadowColor = [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8];
+    shadow.shadowOffset = CGSizeMake(0, 1);
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor colorWithRed:245.0/255.0 green:245.0/255.0 blue:245.0/255.0 alpha:1.0], NSForegroundColorAttributeName,
+                                                           shadow, NSShadowAttributeName,
+                                                           [UIFont fontWithName:@"HelveticaNeue" size:20.0], NSFontAttributeName, nil]];
+    
+    //Nav Bar Back Button Color
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    //Tab Bar Color
+    [[UITabBar appearance] setBarTintColor:UIColorFromRGB(0x0B0A0A)];
+    //Tab Bar Icon Colors
+    [[UITabBar appearance] setTintColor:[UIColor whiteColor]];
+    
+    //Tab Bar Text Color = white
+    [[UITabBarItem appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys: [UIColor whiteColor], NSForegroundColorAttributeName, nil] forState:UIControlStateNormal];
+    
+    
+    //Anonymous User
+    [PFUser enableAutomaticUser];
+    [[PFUser currentUser] incrementKey:@"RunCount"];
+    [[PFUser currentUser] saveInBackground];
+
+     
     return YES;
 }
+
+
+
+    //Push Notifications Callback Method
+- (void)application:(UIApplication *)application
+didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)newDeviceToken {
+    // Store the deviceToken in the current installation and save it to Parse.
+    PFInstallation *currentInstallation = [PFInstallation currentInstallation];
+    [currentInstallation setDeviceTokenFromData:newDeviceToken];
+    [currentInstallation saveInBackground];
+}
+
+    //Parse handles Push Notifications when App is Open
+- (void)application:(UIApplication *)application
+didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    [PFPush handlePush:userInfo];
+}
+
+
+
 							
 - (void)applicationWillResignActive:(UIApplication *)application
 {
