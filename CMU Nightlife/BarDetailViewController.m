@@ -39,6 +39,7 @@
     self.title = bar.name;
     self.barLabel.text = bar.name; //Changed to Directions
     self.barContact.text = bar.contact;
+    self.barImageView.image = [UIImage imageNamed:@"DvcPlaceholder.png"];
     self.barImageView.file = bar.imageFile;
     [barImageView loadInBackground];
     

@@ -82,7 +82,7 @@
     //Configure the cell
     PFFile *thumbnail = [object objectForKey:@"barImage"];
     PFImageView *thumbnailImageView = (PFImageView*)cell.thumbnailImageView;
-    thumbnailImageView.image = [UIImage imageNamed:@"TableCellimage.png"];
+    thumbnailImageView.image = [UIImage imageNamed:@""];
     thumbnailImageView.file = thumbnail;
     [thumbnailImageView loadInBackground];
     

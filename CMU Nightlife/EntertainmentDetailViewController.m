@@ -38,6 +38,7 @@
     self.title = entertainment.name;
     self.entertainmentLabel.text = entertainment.name; //Changed to Directions
     self.entertainmentContact.text = entertainment.contact;
+    self.entertainmentImageView.image = [UIImage imageNamed:@"DvcPlaceholder.png"];
     self.entertainmentImageView.file = entertainment.imageFile;
     [entertainmentImageView loadInBackground];
     

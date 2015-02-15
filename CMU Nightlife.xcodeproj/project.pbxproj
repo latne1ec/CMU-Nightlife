@@ -53,6 +53,24 @@
 		1AEA266318EED5D2005D9F01 /* FoodTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEA266218EED5D2005D9F01 /* FoodTableViewController.m */; };
 		1AEA266618EED5EF005D9F01 /* FoodDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEA266518EED5EF005D9F01 /* FoodDetailViewController.m */; };
 		1AEA266918EED79E005D9F01 /* FoodTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AEA266818EED79E005D9F01 /* FoodTableCell.m */; };
+		203309601A90D5EA006A169D /* DvcPlaceholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2033095F1A90D5EA006A169D /* DvcPlaceholder@2x.png */; };
+		2057D09A1A86CD1C00A43A37 /* TableCellimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 2057D0991A86CD1C00A43A37 /* TableCellimage.png */; };
+		206A887F1A850FF00045F637 /* DVCgrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A887E1A850FF00045F637 /* DVCgrey.png */; };
+		206A888D1A8510100045F637 /* beerglass copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A88801A8510100045F637 /* beerglass copy.png */; };
+		206A888E1A8510100045F637 /* blackTile.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A88811A8510100045F637 /* blackTile.png */; };
+		206A888F1A8510100045F637 /* CMUmapicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A88821A8510100045F637 /* CMUmapicon.png */; };
+		206A88901A8510100045F637 /* CMUphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A88831A8510100045F637 /* CMUphone.png */; };
+		206A88911A8510100045F637 /* DVC Screen.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A88841A8510100045F637 /* DVC Screen.png */; };
+		206A88921A8510100045F637 /* DVCbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A88851A8510100045F637 /* DVCbackground.png */; };
+		206A88931A8510100045F637 /* DVCbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A88861A8510100045F637 /* DVCbs.png */; };
+		206A88941A8510100045F637 /* DVCimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A88871A8510100045F637 /* DVCimage.png */; };
+		206A88951A8510100045F637 /* DVCline.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A88881A8510100045F637 /* DVCline.png */; };
+		206A88961A8510100045F637 /* DVCline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A88891A8510100045F637 /* DVCline@2x.png */; };
+		206A88971A8510100045F637 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A888A1A8510100045F637 /* home@2x.png */; };
+		206A88981A8510100045F637 /* HoursIcon copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A888B1A8510100045F637 /* HoursIcon copy.png */; };
+		206A88991A8510100045F637 /* MUG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A888C1A8510100045F637 /* MUG@2x.png */; };
+		206A889C1A85102B0045F637 /* food@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A889A1A85102B0045F637 /* food@2x.png */; };
+		206A889D1A85102B0045F637 /* taxi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 206A889B1A85102B0045F637 /* taxi@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,6 +152,24 @@
 		1AEA266518EED5EF005D9F01 /* FoodDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDetailViewController.m; sourceTree = "<group>"; };
 		1AEA266718EED79E005D9F01 /* FoodTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodTableCell.h; sourceTree = "<group>"; };
 		1AEA266818EED79E005D9F01 /* FoodTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTableCell.m; sourceTree = "<group>"; };
+		2033095F1A90D5EA006A169D /* DvcPlaceholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DvcPlaceholder@2x.png"; sourceTree = "<group>"; };
+		2057D0991A86CD1C00A43A37 /* TableCellimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableCellimage.png; sourceTree = "<group>"; };
+		206A887E1A850FF00045F637 /* DVCgrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCgrey.png; sourceTree = "<group>"; };
+		206A88801A8510100045F637 /* beerglass copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "beerglass copy.png"; sourceTree = "<group>"; };
+		206A88811A8510100045F637 /* blackTile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackTile.png; sourceTree = "<group>"; };
+		206A88821A8510100045F637 /* CMUmapicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMUmapicon.png; sourceTree = "<group>"; };
+		206A88831A8510100045F637 /* CMUphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CMUphone.png; sourceTree = "<group>"; };
+		206A88841A8510100045F637 /* DVC Screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVC Screen.png"; sourceTree = "<group>"; };
+		206A88851A8510100045F637 /* DVCbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCbackground.png; sourceTree = "<group>"; };
+		206A88861A8510100045F637 /* DVCbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCbs.png; sourceTree = "<group>"; };
+		206A88871A8510100045F637 /* DVCimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCimage.png; sourceTree = "<group>"; };
+		206A88881A8510100045F637 /* DVCline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DVCline.png; sourceTree = "<group>"; };
+		206A88891A8510100045F637 /* DVCline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DVCline@2x.png"; sourceTree = "<group>"; };
+		206A888A1A8510100045F637 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		206A888B1A8510100045F637 /* HoursIcon copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HoursIcon copy.png"; sourceTree = "<group>"; };
+		206A888C1A8510100045F637 /* MUG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MUG@2x.png"; sourceTree = "<group>"; };
+		206A889A1A85102B0045F637 /* food@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "food@2x.png"; sourceTree = "<group>"; };
+		206A889B1A85102B0045F637 /* taxi@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "taxi@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -319,8 +355,26 @@
 		1AEA264E18EB0DEB005D9F01 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				2033095F1A90D5EA006A169D /* DvcPlaceholder@2x.png */,
+				2057D0991A86CD1C00A43A37 /* TableCellimage.png */,
 				1A9A9594190048D2004E2B16 /* CMULOGOSMALL@2x.png */,
 				1A5D44EB18F4669400AA0254 /* tabBarSelected.png */,
+				206A88801A8510100045F637 /* beerglass copy.png */,
+				206A889A1A85102B0045F637 /* food@2x.png */,
+				206A889B1A85102B0045F637 /* taxi@2x.png */,
+				206A88811A8510100045F637 /* blackTile.png */,
+				206A88821A8510100045F637 /* CMUmapicon.png */,
+				206A88831A8510100045F637 /* CMUphone.png */,
+				206A88841A8510100045F637 /* DVC Screen.png */,
+				206A88851A8510100045F637 /* DVCbackground.png */,
+				206A88861A8510100045F637 /* DVCbs.png */,
+				206A88871A8510100045F637 /* DVCimage.png */,
+				206A88881A8510100045F637 /* DVCline.png */,
+				206A88891A8510100045F637 /* DVCline@2x.png */,
+				206A888A1A8510100045F637 /* home@2x.png */,
+				206A888B1A8510100045F637 /* HoursIcon copy.png */,
+				206A888C1A8510100045F637 /* MUG@2x.png */,
+				206A887E1A850FF00045F637 /* DVCgrey.png */,
 				1A5D44E718F43C7000AA0254 /* TableViewBackground.png */,
 			);
 			name = Images;
@@ -388,6 +442,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Evan Latner";
 				TargetAttributes = {
+					1AEA25A818EA0D8A005D9F01 = {
+						DevelopmentTeam = HL4WWQQF9X;
+					};
 					1AEA25C918EA0D8A005D9F01 = {
 						TestTargetID = 1AEA25A818EA0D8A005D9F01;
 					};
@@ -417,13 +474,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				206A88931A8510100045F637 /* DVCbs.png in Resources */,
+				206A888F1A8510100045F637 /* CMUmapicon.png in Resources */,
+				206A889D1A85102B0045F637 /* taxi@2x.png in Resources */,
+				206A88921A8510100045F637 /* DVCbackground.png in Resources */,
+				206A88971A8510100045F637 /* home@2x.png in Resources */,
+				203309601A90D5EA006A169D /* DvcPlaceholder@2x.png in Resources */,
 				1A5D44E818F43C7000AA0254 /* TableViewBackground.png in Resources */,
 				1A9A9595190048D2004E2B16 /* CMULOGOSMALL@2x.png in Resources */,
+				206A88981A8510100045F637 /* HoursIcon copy.png in Resources */,
+				206A887F1A850FF00045F637 /* DVCgrey.png in Resources */,
+				206A88951A8510100045F637 /* DVCline.png in Resources */,
 				1AEA25C518EA0D8A005D9F01 /* Images.xcassets in Resources */,
 				1AEA25B718EA0D8A005D9F01 /* InfoPlist.strings in Resources */,
+				206A88911A8510100045F637 /* DVC Screen.png in Resources */,
+				206A889C1A85102B0045F637 /* food@2x.png in Resources */,
+				206A88991A8510100045F637 /* MUG@2x.png in Resources */,
+				206A88901A8510100045F637 /* CMUphone.png in Resources */,
+				2057D09A1A86CD1C00A43A37 /* TableCellimage.png in Resources */,
 				1A5D44EC18F4669400AA0254 /* tabBarSelected.png in Resources */,
 				1AEA25EA18EA14EB005D9F01 /* bars.plist in Resources */,
+				206A888D1A8510100045F637 /* beerglass copy.png in Resources */,
+				206A88961A8510100045F637 /* DVCline@2x.png in Resources */,
 				1AEA25C018EA0D8A005D9F01 /* Main.storyboard in Resources */,
+				206A888E1A8510100045F637 /* blackTile.png in Resources */,
+				206A88941A8510100045F637 /* DVCimage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -546,7 +621,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "9856832A-E0E1-4CBA-97DB-4387B1F74F18";
+				PROVISIONING_PROFILE = "db6edb9d-7c0a-4d5a-bbd9-0902062a1ea0";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -579,7 +654,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				PROVISIONING_PROFILE = "9856832A-E0E1-4CBA-97DB-4387B1F74F18";
+				PROVISIONING_PROFILE = "db6edb9d-7c0a-4d5a-bbd9-0902062a1ea0";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -590,6 +665,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Level Labs, LLC";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -597,8 +673,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMU Nightlife/CMU Nightlife-Prefix.pch";
 				INFOPLIST_FILE = "CMU Nightlife/CMU Nightlife-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9856832A-E0E1-4CBA-97DB-4387B1F74F18";
+				PROVISIONING_PROFILE = "db6edb9d-7c0a-4d5a-bbd9-0902062a1ea0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -608,6 +685,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Level Labs, LLC";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -615,8 +693,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CMU Nightlife/CMU Nightlife-Prefix.pch";
 				INFOPLIST_FILE = "CMU Nightlife/CMU Nightlife-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9856832A-E0E1-4CBA-97DB-4387B1F74F18";
+				PROVISIONING_PROFILE = "db6edb9d-7c0a-4d5a-bbd9-0902062a1ea0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

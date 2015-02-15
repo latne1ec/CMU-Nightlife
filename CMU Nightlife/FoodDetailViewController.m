@@ -40,6 +40,7 @@
     self.title = food.name;
     self.foodLabel.text = food.name; //Changed to Directions
     self.foodContact.text = food.contact;
+    self.foodImageView.image = [UIImage imageNamed:@"DvcPlaceholder.png"];
     self.foodImageView.file = food.imageFile;
     [foodImageView loadInBackground];
     

@@ -32,33 +32,6 @@
     //remove unused table cell lines
     self.tableView.tableFooterView = [UIView new];
     
-    
-    
-    //Get users current location and save it to Parse
-    if([PFUser currentUser])
-    {
-        self.user = [PFUser currentUser];
-        
-        [PFGeoPoint geoPointForCurrentLocationInBackground:^(PFGeoPoint *geoPoint, NSError *error) {
-            NSLog(@"User is currently at %f, %f", geoPoint.latitude, geoPoint.longitude);
-            
-            [self.user setObject:geoPoint forKey:@"currentLocation"];
-            [self.user saveInBackground];
-            
-            self.userLocation = geoPoint;
-            [self loadObjects];
-            
-            }];
-    
-
-    }
-
-    
-//    Add code to show this screen if user has not already set their location
-        
-//    [self performSegueWithIdentifier:@"showSetUserLocation" sender:self];
-    
-    
 }
 
 - (void)viewDidUnload
@@ -88,14 +61,9 @@
     return self;
 }
 
-- (PFQuery *)queryForTable
-{
-    if (!self.userLocation) {
-        return nil;
-    }
+- (PFQuery *)queryForTable {
     
     PFQuery *query = [PFQuery queryWithClassName:self.parseClassName];
-    [query whereKey:@"entertainmentLocation" nearGeoPoint:self.userLocation withinMiles:1];
     
     return query;
 }
@@ -109,7 +77,7 @@
     //Configure the cell
     PFFile *thumbnail = [object objectForKey:@"entertainmentImage"];
     PFImageView *thumbnailImageView = (PFImageView*)cell.thumbnailImageView;
-    thumbnailImageView.image = [UIImage imageNamed:@"TableCellimage.png"];
+    thumbnailImageView.image = [UIImage imageNamed:@""];
     thumbnailImageView.file = thumbnail;
     [thumbnailImageView loadInBackground];
     

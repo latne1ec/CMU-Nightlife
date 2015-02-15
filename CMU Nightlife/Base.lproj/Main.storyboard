@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="qq3-dp-buM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="qq3-dp-buM">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
         <!--Bar Specials-->
@@ -15,7 +15,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BarTableCell" rowHeight="72" id="h9G-Bj-ImP" customClass="BarTableCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="BarTableCell" rowHeight="72" id="h9G-Bj-ImP" customClass="BarTableCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="72"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h9G-Bj-ImP" id="xXd-hX-Oxq">
@@ -177,7 +177,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell alpha="0.39999999999999963" contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EntertainmentTableCell" rowHeight="72" id="ppe-bZ-Vvh" customClass="EntertainmentTableCell">
+                            <tableViewCell alpha="0.39999999999999963" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="EntertainmentTableCell" rowHeight="72" id="ppe-bZ-Vvh" customClass="EntertainmentTableCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="72"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ppe-bZ-Vvh" id="uFg-jN-9to">
@@ -221,42 +221,10 @@
                     <navigationItem key="navigationItem" title="Entertainment" id="s10-BX-ygb">
                         <barButtonItem key="backBarButtonItem" title="  " id="7lU-zY-V5x"/>
                     </navigationItem>
-                    <connections>
-                        <segue destination="y3t-oi-RSI" kind="push" identifier="showSetUserLocation" id="00I-ng-GrQ"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FX5-Zs-7vR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1099" y="-754"/>
-        </scene>
-        <!--Select Your College-->
-        <scene sceneID="7ry-cn-BQu">
-            <objects>
-                <tableViewController id="y3t-oi-RSI" customClass="UserLocationViewController" sceneMemberID="viewController">
-                    <tableView key="view" opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Ee8-Rq-in9">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="HP9-qo-5zq">
-                                <rect key="frame" x="0.0" y="86" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HP9-qo-5zq" id="Zv7-8I-LXJ">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="y3t-oi-RSI" id="JoJ-st-B1b"/>
-                            <outlet property="delegate" destination="y3t-oi-RSI" id="MS8-9J-WOY"/>
-                        </connections>
-                    </tableView>
-                    <navigationItem key="navigationItem" title="Select Your College" id="RO3-b0-Zhf"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uLn-e0-EKf" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1477" y="-1201"/>
         </scene>
         <!--Entertainment Detail View Controller-->
         <scene sceneID="swz-Xy-Bg3">
@@ -368,7 +336,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MdG-2q-fQb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1889" y="-754"/>
+            <point key="canvasLocation" x="1599" y="-754"/>
         </scene>
         <!--Bar Specials-->
         <scene sceneID="2Lx-S3-N5i">
@@ -399,7 +367,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="gray" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FoodTableCell" rowHeight="72" id="x3S-31-K2H" customClass="FoodTableCell">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="FoodTableCell" rowHeight="72" id="x3S-31-K2H" customClass="FoodTableCell">
                                 <rect key="frame" x="0.0" y="86" width="320" height="72"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="x3S-31-K2H" id="3p8-Ta-hjM">
@@ -464,7 +432,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bzK-Bt-iw4">
-                                        <rect key="frame" x="0.0" y="0.0" width="320" height="550"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="700"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BJB-M7-gcf" customClass="PFImageView">
                                                 <rect key="frame" x="0.0" y="0.0" width="320" height="247"/>
@@ -527,7 +495,7 @@
                                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="320" id="EBp-BO-op5"/>
-                                            <constraint firstAttribute="height" constant="550" id="jHd-IO-k3r"/>
+                                            <constraint firstAttribute="height" constant="700" id="jHd-IO-k3r"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -783,7 +751,7 @@
         <image name="CMUmapicon.png" width="50" height="68"/>
         <image name="CMUphone.png" width="50" height="50"/>
         <image name="DVCbackground.png" width="320" height="520"/>
-        <image name="DVCline.png" width="320" height="5"/>
+        <image name="DVCline.png" width="640" height="10"/>
         <image name="MUG.png" width="26" height="30"/>
         <image name="TableCellimage.png" width="120" height="100"/>
         <image name="blackTile.png" width="320" height="50"/>
